@@ -1,0 +1,715 @@
+.jumbotron{
+  display: flex;
+  text-decoration:none;
+  color:black;
+}
+div .button{
+  display: flex;
+  background-color: #FF7518;
+  border: 0.15em solid white;
+  width: 10em;
+  height: 3em;
+  text-align: center;
+  margin-bottom: 0em;
+  margin-top: 0em;
+  position:relative;
+  transition: 0.4s;
+  margin-left:0.8em;
+  cursor:pointer;
+  border-radius: 5px;
+}
+.button a{
+  position:relative;
+  left:1.6em;
+  top: 0.5em;
+  text-align:center;
+  transition: 0.3s;
+  font-size: 1.3em;
+  font-family: Arial;
+}
+.button:hover{
+  border: 1px solid black;
+  height: 5em;
+  width: 10em;
+  border-radius: 5px;
+}
+a{
+  position:relative;
+}
+.button:hover a{
+  top: 1.3em;
+  left: 1.6em;
+}
+#uitrusting{
+  width: 7.2em;
+}
+#logo{
+  height: 10em;
+  width: 10em;
+  margin-left: 0.8em;
+  margin-top: 1em;
+}
+#logo:hover{
+  height: 10em;
+  width: 10em;
+  transition: height 1s;
+  transform: rotateY(360deg);
+  transition: transform 2s ease-in;
+}
+#geschiedenis a{
+  position:relative;
+  left:1.0em;
+}
+#geschiedenis:hover a{
+  position: relative;
+  left: 1.0em;
+}
+.kantlijn{
+  width:11.4em;
+  height:101.3%;
+  background-color:white;
+  position: fixed;
+  margin-left: -1em;
+  margin-top: -1em;
+  z-index: 5;
+}
+#achtergrond{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+#inleiding{
+position:absolute;
+margin-left: 33%;
+margin-top: 5em;
+background-color: white;
+width:45em;
+height:90em;
+border-radius: 5px;
+}
+#hockeyclubs a{
+  position: relative;
+  left:1.2em;
+}
+#hockeyclubs:hover a{
+  position: relative;
+  left: 1.2em;
+}
+#dropout li{
+  list-style-type: none;
+}
+#dropout{
+  position:absolute;
+  left:-20em;
+  opacity: 0;
+}
+#uitrusting:hover #dropout {
+  left:8.9em;
+  top: 10em;
+  opacity: 1;
+  transition: opacity 1s;
+}
+#speler{
+  width: 10em;
+  height: 3em;
+  background-color: #FF7518;
+  border: white solid 1px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+#keeper{
+  width: 10em;
+  height: 3em;
+  background-color: #FF7518;
+  border: white solid 1px;
+  margin-top: 1.2em;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.keepertekst, .spelertekst{
+  display: flex;
+  text-decoration:none;
+  color:black;
+  padding-top: 0.55em;
+  padding-left: 2.4em;
+  text-align: center;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Arial;
+}
+#speler:hover{
+  width:10em;
+  height:5em;
+  border: 1px solid black;
+  border-radius right: 5px;
+}
+#keeper:hover{
+  width:10em;
+  height:5em;
+  border: 1px solid black;
+  border-radius right: 5px;
+}
+#keeper:hover a{
+  padding-left: 2.4em;
+  padding-top: 1.3em;
+}
+#keeper a{
+  transition: 0.3s;
+}
+#speler:hover a{
+  padding-left: 2.4em;
+  padding-top: 1.3em;
+}
+#speler a{
+  transition: 0.3s;
+}
+div #contact{
+  display: flex;
+  background-color: #FF7518;
+  border: 0.15em solid white;
+  width: 10em;
+  height: 3em;
+  text-align: center;
+  margin-bottom: 0.5em;
+  margin-top: 40%;
+  position:relative;
+  transition: 0.4s;
+  margin-left:0.8em;
+  border-radius: 20px;
+}
+#contact p{
+  position:relative;
+  left: 2em;
+  top: -0.4em;
+  text-align:center;
+  font-size: 1.3em;
+  font-family: Arial;
+}
+#telefoonicoon1{
+  width:4.5em;
+  height:4.5em;
+  margin-left: 0.8em;
+  margin-top: 1em;
+}
+#telefoonnummer{
+  margin-top: 1em;
+  opacity:0;
+  font-family: Calibri;
+}
+#telefoonicoon{
+  width:4.5em;
+  height:4.5em;
+}
+#telefoonicoon1:hover #telefoonnummer{
+  opacity: 1;
+  transition: opacity 1s;
+}
+#telefoonicoon:hover{
+  transform:rotateY(360deg);
+  transition: transform 2s;
+}
+.titel{
+  text-align: center;
+  font-family: arial;
+}
+#mailicoon1{
+  width:4.5em;
+  height:4.5em;
+  margin-left: 0.8em;
+  margin-top: 1em;
+}
+#mailadres{
+  margin-top: 1em;
+  opacity: 0;
+  font-family: Calibri;
+}
+#mailicoon{
+  width:4.5em;
+  height:4.5em;
+}
+#mailicoon:hover{
+  transform:rotateY(360deg);
+  transition: transform 2s;
+}
+#mailicoon1:hover #mailadres{
+  opacity: 1;
+  transition: opacity 1s;
+}
+.iconen{
+  display: inline-block;
+}
+#youtubeicoon{
+  width:4.5em;
+  height:4.5em;
+}
+#youtubeicoon1{
+  width:4.5em;
+  height:4.5em;
+  margin-left: 113em;
+  margin-top: 55em;
+  position: fixed;
+}
+#filmpjes{
+  margin-left: 0.5em;
+  opacity:0;
+  font-family: Calibri;
+}
+#youtubeicoon1:hover #filmpjes{
+  opacity:1;
+  transition: opacity 3s;
+}
+#youtubeicoon:hover{
+  transform:rotateY(360deg);
+  transition: transform 2s;
+}
+#dropout2 li{
+  list-style-type: none;
+}
+#dropout2{
+  position:absolute;
+  left:-20em;
+  opacity:0;
+}
+#spelregels:hover #dropout2{
+  left:8.9em;
+  top: 13.5em;
+  opacity: 1;
+  transition: opacity 1s
+}
+#veldhockey{
+  width: 10em;
+  height: 3em;
+  background-color: #FF7518;
+  border: white solid 1px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+#zaalhockey{
+  width: 10em;
+  height: 3em;
+  background-color: #FF7518;
+  border: white solid 1px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.zaalhockeytekst, .veldhockeytekst{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  padding-top: 0.6em;
+  padding-left: 1.5em;
+  text-align: center;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Arial;
+}
+#zaalhockey:hover{
+  width:10em;
+  height:5em;
+  border:1px black solid
+
+}
+#veldhockey:hover{
+  width:10em;
+  height:5em;
+  border:1px black solid;
+}
+#veldhockey:hover a{
+  padding-top:17.5%;
+}
+#veldhockey a{
+  transition:0.3s;
+}
+#zaalhockey:hover a{
+  padding-top: 17.5%;
+}
+#zaalhockey a{
+  transition:0.3s;
+}
+#dropout3{
+  position:absolute;
+  left: -30em;
+  opacity: 0;
+}
+#nederlands:hover #dropout3{
+  left:8.9em;
+  top:23.25em;
+  opacity:1;
+  transition: opacity 1s;
+}
+#heren{
+  width: 10em;
+  height: 3em;
+  background-color: #FF7518;
+  border: white solid 1px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+#dames{
+  width: 10em;
+  height: 3em;
+  background-color: #FF7518;
+  border: white solid 1px;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+.herentekst, .damestekst{
+  display: flex;
+  text-decoration: none;
+  color: black;
+  padding-top: 0.6em;
+  padding-left: 2.2em;
+  text-align: center;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: Arial;
+}
+#heren:hover{
+  width:10em;
+  height:5em;
+  border:1px solid black;
+  border-radius right: 5px;
+}
+#dames:hover{
+  width:10em;
+  height:5em;
+  border:1px solid black;
+  border-radius right: 5px;
+}
+#heren:hover a{
+  padding-left: 2.4em;
+  padding-top:1.3em;
+}
+#heren a{
+  transition: 0.3s;
+}
+#dames:hover a{
+  padding-left: 2.4em;
+  padding-top:1.3em;
+}
+#dames a{
+  transition: 0.3s;
+}
+#dropout3 li{
+  list-style-type: none;
+}
+.nieuws{
+  padding-left: 0.7em;
+  display: flex;
+  text-decoration:none;
+  color:black;
+}
+.titel{
+  opacity: 0.8;
+}
+.tekst{
+  text-align: center;
+}
+#inleidinggeschiedenis{
+  position:absolute;
+  margin-left: 33%;
+  margin-top: 5em;
+  background-color: white;
+  width:45em;
+  height:70em;
+  border-radius: 5px;
+}
+#keeperuitrustingimg{
+  padding-left: 30%;
+  margin-top: 0em;
+  position:relative;
+}
+#beschrijving {
+  margin-left: 30%;
+  margin-top: 0em;
+}
+#speleruitrustingimg{
+  margin-left:30%;
+  margin-top: 0em;
+  position:relative;
+}
+#beschrijvingspeler{
+  margin-left: 30%;
+  margin-top:0em;
+}
+#inleidinguitrusting{
+  position:absolute;
+  margin-left: 33%;
+  margin-top: 5em;
+  background-color: white;
+  width:45em;
+  height:40em;
+  border-radius: 5px;
+}
+table,td, th{
+  border: #FF7518 1px solid;
+  border-collapse: collapse;
+}
+th{
+  background-color: #FF7518;
+}
+#keepertabel{
+  margin-left: 29%;
+  margin-top: 5em;
+  width:15em;
+  font-size: 1.25em;
+  text-align: center;
+}
+#spelertabel{
+  margin-left: 33%;
+  margin-top: 5em;
+  width:12.5em;
+  font-size:1.25em;
+  text-align: center;
+}
+#veldhockeyimg{
+  width:20em;
+  height:15em;
+  margin-left: 27%;
+
+}
+#zaalhockeyimg{
+  width: 20em;
+  margin-left: 27%;
+  height:15em;
+  margin-top: 1.5em
+}
+#beschrijvingzaalhockey, #beschrijvingveldhockey{
+  padding-left: 30%;
+  margin-top: 0em;
+}
+#inleidingspelregels{
+  position:absolute;
+  margin-left: 33%;
+  margin-top: 5em;
+  background-color: white;
+  width:45em;
+  height:50em;
+  border-radius: 5px;
+}
+#inleidingveldhockey{
+  position:absolute;
+  margin-left: 33%;
+  margin-top: 5em;
+  background-color: white;
+  width:45em;
+  height:125em;
+  border-radius: 5px;
+}
+.inleidendetekst{
+  text-align: center;
+  font-style: italic;
+  font-size: 1.1em;
+}
+#logobommel{
+  width:9em;
+  height:9em;
+  position: relative;
+}
+#logohcdb{
+  width:8em;
+  height:8em;
+  position: absolute;
+}
+#hcdbtekst{
+  font-style: italic;
+  margin-left: 1.25em;
+  margin-top: 10em
+}
+#bommeltekst{
+  font-style: italic;
+  margin-left:1.25em;
+  margin top
+}
+#bommel{
+  width:9em;
+  height:9em;
+  position: relative;
+  margin-top: 5em;
+  margin-left: 8em;
+}
+#db{
+  width:8em;
+  height:8em;
+  position: absolute;
+  margin-left:27.5em;
+  margin-top: -8em
+
+}
+#inleidingg{
+  position:absolute;
+  margin-left: 33%;
+  margin-top: 5em;
+  background-color: white;
+  width:45em;
+  height:25em;
+  border-radius: 5px;
+}
+#nieuws1{
+  width: 8em;
+  height: 8em;
+  text-decoration: none
+
+}
+#nieuws1tekst{
+  font-style: italic;
+  margin-left: 10em;
+  margin-top: -8em;
+  text-decoration: none
+}
+
+.nieuws1{
+  width: 15em;
+  height: 8em;
+  margin-top: 4em;
+  margin-left: 10em;
+  text-decoration: none
+}
+#nieuws2{
+  width: 8em;
+  height: 8em;
+}
+.nieuws2{
+  width:15em;
+  height:8em;
+  margin-top: 4em;
+  margin-left: 10em;
+}
+#nieuws2tekst{
+  font-style: italic;
+  margin-left: 10em;
+  margin-top: -8em;
+}
+#nieuws3{
+  width: 8em;
+  height: 8em;
+}
+.nieuws3{
+  width:15em;
+  height:8em;
+  margin-top: 4em;
+  margin-left: 10em;
+}
+#nieuws3tekst{
+  font-style: italic;
+  margin-left: 10em;
+  margin-top: -8em;
+}
+#herenfoto{
+  width: 45em;
+  height: 22.5em;
+  position: relative;
+  margin-top: 10em
+}
+#olympisch{
+  margin-left: 15em;
+}
+#wereld{
+  margin-left: 15em;
+}
+#europees{
+  margin-left: 15em
+}
+.dameselftal{
+  width:15em;
+  height: 10em;
+  margin-left: 4em;
+  margin-top: 5em;
+}
+#dameselftal{
+  width:15em;
+  height: 10em;
+}
+#damestekst{
+  margin-top: 0em;
+  font-style: italic;
+  margin-left: 5em;
+}
+.herenelftal{
+  width:15em;
+  height: 10em;
+  margin-left: 24em;
+  margin-top: -10em;
+}
+#herenelftal{
+  width:15em;
+  height: 10em;
+}
+#herentekst{
+  margin-top: 0em;
+  font-style: italic;
+  margin-left: 5em;
+}
+.teksthockeyclubs{
+
+
+}
+#noord-brabant{
+  display: inline-block;
+  position: relative;
+  left: 25em;
+  top: -293.8em;
+}
+#zuid-holland{
+  display: inline-block;
+  position: relative;
+  left: 25em;
+  top: -150.5em;
+}
+#overijssel{
+  display: inline-block;
+  position: relative;
+  left: 25em;
+  top: 62.5em;
+}
+#zeeland{
+  display: inline-block;
+  position: relative;
+  top: -230em;
+  left: 6em;
+}
+#limburg{
+  display: inline-block;
+  position: relative;
+  top: -192em;
+  left: 10em;
+}
+#flevoland{
+  top: -18em;
+  position: relative;
+}
+.inleidinghockeyclubs{
+position:absolute;
+margin-left: 33%;
+margin-top: 10em;
+background-color: white;
+width:45em;
+height:410em;
+border-radius: 5px;
+}
+#herenfoto{
+  width: 45em;
+  height: 22.5em;
+  position: relative;
+  margin-top: 1em
+}
+#olympisch{
+  margin-left: 15em;
+}
+#wereld{
+  margin-left: 15em;
+}
+#europees{
+  margin-left: 15em
+}
+#damesfoto{
+  width: 45em;
+  height: 22.5em;
+  position: relative;
+  margin-top: 0em
+}
+li{
+  list-style-type: none;
+}

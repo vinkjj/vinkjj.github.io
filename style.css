@@ -417,18 +417,20 @@ div #contact{
   border-radius: 5px;
 }
 #keeperuitrustingimg{
-  padding-left: 30%;
+  padding-left: 22%;
   margin-top: 0em;
   position:relative;
+  width:25em;
 }
 #beschrijving {
   margin-left: 30%;
   margin-top: 0em;
 }
 #speleruitrustingimg{
-  margin-left:30%;
+  margin-left:22%;
   margin-top: 0em;
   position:relative;
+  width:25em;
 }
 #beschrijvingspeler{
   margin-left: 30%;
